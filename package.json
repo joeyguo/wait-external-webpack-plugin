@@ -1,6 +1,6 @@
 {
   "name": "wait-external-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wait until externals loaded.",
   "main": "wait-external-webpack-plugin.js",
   "author": "joeyguo",
