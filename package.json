@@ -1,0 +1,22 @@
+{
+  "name": "wait-external-webpack-plugin",
+  "version": "1.0.0",
+  "description": "wait until externals loaded.",
+  "main": "wait-external-webpack-plugin.js",
+  "author": "joeyguo",
+  "license": "MIT",
+  "peerDependencies": {
+    "webpack": ">=2"
+  },
+  "dependencies": {
+    "webpack": "^4.33.0",
+    "webpack-sources": "^1.1.0"
+  },
+  "files": [
+    "wait-external-webpack-plugin.js"
+  ],
+  "keywords": [
+    "webpack",
+    "plugin"
+  ]
+}
