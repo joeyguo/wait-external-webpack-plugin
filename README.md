@@ -1,4 +1,7 @@
 # wait-external-webpack-plugin
+## 相关文章
+[《Webpack 打包后代码执行时机分析与优化》](https://github.com/joeyguo/blog/issues/21)
+
 ## Description
 通过对 entry 文件进行处理，业务逻辑将等待所依赖的 externals 文件加载完成后再开始执行。避免 externals 文件未加载完成或加载失败时，直接执行业务逻辑导致异常。
 
