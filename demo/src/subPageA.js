@@ -1,7 +1,7 @@
 import "./module.js";
-import React from "react";
+import reactComponet from "reactComponet";
 import $ from "jquery";
 
 console.log("subPageA")
-console.log(React)
+console.log(reactComponet)
 export default "subPageA";

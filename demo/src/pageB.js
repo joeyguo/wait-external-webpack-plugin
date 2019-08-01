@@ -1,5 +1,5 @@
 import "./subPageB.js";
 
-console.log("At page 'B' :", _);
+console.log("PageB");
 
-export default "pageB";
+export default "PageB";

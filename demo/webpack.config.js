@@ -1,4 +1,5 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WaitExternalPlugin = require('..//wait-external-webpack-plugin');
 
 module.exports = {
@@ -17,7 +18,7 @@ module.exports = {
             jquery: 'window jQuery',
         },
         {
-        react : ['React', 'subtract']
+        reactComponet : ['React', 'Component']
     }],
     optimization: {
         splitChunks: {
@@ -41,5 +42,6 @@ module.exports = {
         new WaitExternalPlugin({
             test: /\.js$/,
         }),
+        new HtmlWebpackPlugin(),
     ]
 };

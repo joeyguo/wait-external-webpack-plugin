@@ -167,27 +167,27 @@ eval("(function() { module.exports = window[\"jQuery\"]; }());\n\n//# sourceURL=
 
 /***/ }),
 
-/***/ "react":
-/*!*************************************!*\
-  !*** external ["React","subtract"] ***!
-  \*************************************/
+/***/ "reactComponet":
+/*!**************************************!*\
+  !*** external ["React","Component"] ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = React[\"subtract\"];\n\n//# sourceURL=webpack:///external_%5B%22React%22,%22subtract%22%5D?");
+eval("module.exports = React[\"Component\"];\n\n//# sourceURL=webpack:///external_%5B%22React%22,%22Component%22%5D?");
 
 /***/ })
 
 /******/ });
 
 	};
-	if (window["jQuery"] && React["subtract"]) {
+	if (window["jQuery"] && window.React && React["Component"]) {
 		entryInit();
 	} else {
 		var hasInit = false; 
 		var callback = function () {
 			if(hasInit) return;
-			if (window["jQuery"] && React["subtract"]) {
+			if (window["jQuery"] && window.React && React["Component"]) {
 				hasInit = true;
 				document.removeEventListener('load', callback, true);
 				entryInit();
