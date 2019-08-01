@@ -32,7 +32,7 @@ class WaitExternalPlugin {
 			.slice(1)
 			.map(r => `[${JSON.stringify(r)}]`)
 			.join("");
-		return `${variableName}${objectLookup}`;
+		return `window.${variableName} && ${variableName}${objectLookup}`;
 	}
 
 	apply(compiler) {
